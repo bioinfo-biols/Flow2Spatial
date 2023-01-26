@@ -23,7 +23,7 @@ source_suffix = ['.rst', '.md']
 
 # -- Project information -----------------------------------------------------
 
-project = 'exoTras'
+project = 'Flow2Spatial'
 copyright = '2023, Ruiqiao He'
 author = 'Ruiqiao He'
 
