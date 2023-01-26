@@ -12,17 +12,17 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     install_requires=[
-        "torch>=1.10.0+cu102",
-        "shapely>=1.8.2",
-        "scikit-image>=0.19.2",
-        "cvxpy>=1.1.17",
         "scanpy>=1.9.1",
-        "anndata>=0.8.0",
-        "scipy>=1.7.3",
-        "numpy>=1.22.4",
-        "pandas>=1.3.4",
+        "shapely>=1.8.2",
+        "cvxpy>=1.1.17",
+        "scikit-image",#>=0.19.2
+        "anndata",#>=0.8.0
+        "scipy",#>=1.7.3
+        "numpy",#>=1.22.4
+        "pandas",#>=1.3.4
+        # "torch>=1.10.0",#+cu102
     ],
-    python_requires='>=3.8.1',
+    python_requires='>=3.8.10',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
