@@ -22,7 +22,7 @@ import cvxpy
 # import seaborn as sns
 
 # from anndata import AnnData
-import scanpy as sc
+# import scanpy as sc
 # import squidpy as sq
 
 import os

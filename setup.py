@@ -12,7 +12,8 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     install_requires=[
-        "scanpy>=1.9.1",
+        # "torch>=1.9.1",#+cu102
+        # "scanpy>=1.9.1",
         "shapely>=1.8.2",
         "cvxpy>=1.1.17",
         "scikit-image",#>=0.19.2
@@ -20,9 +21,8 @@ setup(
         "scipy",#>=1.7.3
         "numpy",#>=1.22.4
         "pandas",#>=1.3.4
-        # "torch>=1.10.0",#+cu102
     ],
-    python_requires='>=3.8.10',
+    python_requires='>=3.8.10',#
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',

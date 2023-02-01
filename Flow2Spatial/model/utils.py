@@ -251,7 +251,7 @@ def reconstruction(select_epoch, channel_intensity, out_adata='adata', DNN_para=
     tmp_dat_matrix['Genes'] = channel_intensity_list_dat_dropna['PG.Genes'].values
 
     from anndata import AnnData
-    import scanpy as sc
+    # import scanpy as sc
 
     Reconstruct_data = tmp_dat_matrix
 
