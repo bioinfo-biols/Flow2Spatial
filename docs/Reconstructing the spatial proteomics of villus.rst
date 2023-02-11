@@ -3,7 +3,9 @@ Reconstructing the spatial proteomics of villus
 
 To present the pipeline of Flow2Spatial more clearly, we show the villus spatial proteomics reconstruction as an instance. 
 
-Here, we applied POTTLE to an adult rat large intestinal villus tissue using a 25 µm chip. A total of 2,451 proteins groups in ~100 channels (two angle) was successfully detected using LC-MS/MS, and needed to be reconstructed by Flow2Spatial. Spatial metabolomics in the middle slice was used as the reference omics.
+Here, we applied POTTLE to an adult rat large intestinal villus tissue using a 25 µm chip. A total of 2,451 proteins groups in ~100 channels (two angle) was successfully detected using LC-MS/MS, and needed to be reconstructed by Flow2Spatial. Spatial metabolomics in the middle slice was used as the reference omics. 
+
+The trained model locates at https://github.com/bioinfo-biols/Flow2Spatial/releases/download/data/Recontruct_weights_gut.pkl, which is trained by following steps. We can reconstruct protein spatial distribution with it. 
 
 Training data generation
 ````````````
