@@ -1,8 +1,8 @@
 ## Flow2Spatial reconstructs spatial proteomics through transfer learning 
 
-Flow2Spatial is the computational part of POTTLE (parallel flow projection and transfer learning-based spatial proteomics framework). 
+Flow2Spatial is the computational part of PLATO (parallel flow projection and transfer learning across omics data). 
 
-It aims to reconstruct spatial proteomics from the values of parallel-flow projections in POTTLE. Leveraging transfer learning, Flow2Spatial can restore fine structure of protein spatial distribution in different tissue types. 
+It aims to reconstruct spatial proteomics from the values of parallel-flow projections in PLATO. Leveraging transfer learning, Flow2Spatial can restore fine structure of protein spatial distribution in different tissue types. 
 
 
 <p align="center">
@@ -20,5 +20,5 @@ Further tutorials please refer to  https://Flow2Spatial.readthedocs.io/.
 
 ### Citation 
 
-Beiyu Hu, Ruiqiao He, Kun Pang, Guibin Wang, Ning Wang, Tianxin Liu, Zewen Jiang, Yongxi Huang, Jinyang Zhang, Zhenqiang Zuo, Peifeng Ji, & Fangqing Zhao (2023). High-resolution spatially resolved proteomics of complex tissues based on microfluidics and transfer learning. 
+Beiyu Hu, Ruiqiao He, Kun Pang, Guibin Wang, Ning Wang, Tianxin Liu, Junjie Zhu, Zewen Jiang, Wenzhuo Zhu, Yongxi Huang, Jinyang Zhang, Zhenqiang Zuo, Peifeng Ji, & Fangqing Zhao (2023). High-resolution spatially resolved proteomics of complex tissues based on microfluidics and transfer learning. 
 
