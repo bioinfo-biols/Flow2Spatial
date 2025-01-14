@@ -25,6 +25,8 @@ Key functions of Flow2Spatial
    Overview
    Installation
    Functions
+   Generators
+   Model
 
 .. toctree::
    :caption: Tutorials

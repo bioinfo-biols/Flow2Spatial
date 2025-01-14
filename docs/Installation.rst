@@ -4,7 +4,7 @@ Prerequisites & Installation
 Prerequisites
 ````````````
 
-Flow2Spatial requires ``python >= 3.8``\.
+Flow2Spatial requires ``python >= 3.7.9``\.
 
 ::
 
