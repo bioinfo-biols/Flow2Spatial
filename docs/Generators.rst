@@ -24,7 +24,7 @@ Generator.histology
 
 Transfer histological information as training data. 
 
-The first two inputs are the parameters of the line equation in the parallel-flow projection of the first and last slice, which is placed by microfluidics chip. The input format should be dict, with the key as 'line1' 'line2' ... 'lineN' and the value as the {a, b, c} of the line equation ax + by + c = 0. The third inputs a bool matrix, showing whether tissue slice is palced in certain pixel. After that, a list of histological clusters *segments* and MS intensity in each channel are needed for the function. 
+The first two inputs (*line_row*, *line_col*) are the parameters of the line equation in the parallel-flow projection of the first and last slice, which is placed by microfluidics chip. The input format should be dict, with the key as 'line1' 'line2' ... 'lineN' and the value as the (a, b, c) of the line equation ax + by + c = 0, hence {'line1': (a1, b1, c1), ... 'lineN': (aN, bN, cN)}. The third inputs a bool matrix, showing whether tissue slice is palced in certain pixel. After that, a list of histological clusters *segments* and MS intensity in each channel are needed for the function. 
 
 Corresponding mask and channel_intensity locate at https://github.com/bioinfo-biols/Flow2Spatial/tree/main/tests under the names *mask* and *df_pro_gut.csv*. And *segments* can be generated from adata with following code: 
 

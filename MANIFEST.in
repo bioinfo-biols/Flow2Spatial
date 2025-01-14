@@ -1,3 +1,7 @@
 include README.md
 include docs/Flow2Spatial.png
 include LICENSE
+include Flow2Spatial/model/dnn_utils.py
+include Flow2Spatial/model/utils.py
+include Flow2Spatial/model/__init__.py
+include Flow2Spatial/generator/*

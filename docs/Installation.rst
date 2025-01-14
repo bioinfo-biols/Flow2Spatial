@@ -1,19 +1,19 @@
 Prerequisites & Installation
--------------
+-------------------------------
 
 Prerequisites
-````````````
+````````````````
 
 Flow2Spatial requires ``python >= 3.7.9``\.
 
-::
+:: 
 
-    "torch", "shapely", "scikit-image", "cvxpy", 
-    "scanpy", "anndata", "scipy", "numpy", "pandas" 
+    "torch", "shapely", "cvxpy", "anndata", 
+    "scipy", "numpy", "pandas" 
 
 
 Installation
-````````````
+````````````````
 
 .. code-block:: bash
 

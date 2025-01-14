@@ -13,12 +13,11 @@ It aims to reconstruct spatial proteomics from the values of parallel-flow proje
 </p>
 
 ### Prerequisites 
-    "torch", "shapely", "scikit-image", "cvxpy", 
-    "anndata", "scipy", "numpy", "pandas"
+    "torch", "shapely", "cvxpy", "anndata",
+     "scipy", "numpy", "pandas"
 
 Further tutorials please refer to  https://Flow2Spatial.readthedocs.io/. 
 
 ### Citation 
 
 Beiyu Hu, Ruiqiao He, Kun Pang, Guibin Wang, et al. High-resolution spatially resolved proteomics of complex tissues based on microfluidics and transfer learning. Cell (2025). 
-
