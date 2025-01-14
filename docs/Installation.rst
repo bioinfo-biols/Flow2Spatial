@@ -19,7 +19,7 @@ Installation
 
     pip install Flow2Spatial
 
-Because Flow2Spatial requires ``Pytorch`` to train deep learning model, an additional installation step is needed. Please refer to https://pytorch.org/get-started/locally/ for customized installation. 
+Because Flow2Spatial requires ``Pytorch`` to train deep learning model, an additional installation step is needed. Please refer to https://pytorch.org/get-started/locally/ for customized installation. Pytorch version has been tested from 1.9.1 to 1.13.1. We recommand v1.13.1 as the version to install. 
 
 We also suggest to use a separate conda environment for installing Flow2Spatial. 
 

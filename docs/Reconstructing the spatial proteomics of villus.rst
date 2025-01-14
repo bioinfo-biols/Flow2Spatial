@@ -20,7 +20,7 @@ With the trained model weights (located at https://github.com/bioinfo-biols/Flow
     channel_intensity_list_dat_dropna = channel_intensity_list_dat.dropna()
 
     ## Prediction
-    F2S.model.reconstruction(channel_intensity_list_dat_dropna, DNN_model='./Recontruct_weights_gut.pkl', Xchannels=57, mask='./mask')
+    Reconstruction = F2S.model.reconstruction(channel_intensity_list_dat_dropna, DNN_model='./Recontruct_weights_gut.pkl', Xchannels=57, mask='./mask')
 
 Corresponding channel_intensity, DNN_model and mask locate at https://github.com/bioinfo-biols/Flow2Spatial/tree/main/tests. We can reconstruct protein spatial distribution with these files. 
 
