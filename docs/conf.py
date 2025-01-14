@@ -24,7 +24,7 @@ source_suffix = ['.rst', '.md']
 # -- Project information -----------------------------------------------------
 
 project = 'Flow2Spatial'
-copyright = '2023, Ruiqiao He'
+copyright = '2025, Ruiqiao He'
 author = 'Ruiqiao He'
 
 # The full version, including alpha/beta/rc tags
