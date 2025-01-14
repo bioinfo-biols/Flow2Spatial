@@ -20,5 +20,5 @@ Further tutorials please refer to  https://Flow2Spatial.readthedocs.io/.
 
 ### Citation 
 
-Beiyu Hu, Ruiqiao He, Kun Pang, Guibin Wang, Ning Wang, Tianxin Liu, Junjie Zhu, Zewen Jiang, Wenzhuo Zhu, Yongxi Huang, Jinyang Zhang, Zhenqiang Zuo, Peifeng Ji, & Fangqing Zhao (2023). High-resolution spatially resolved proteomics of complex tissues based on microfluidics and transfer learning. 
+Beiyu Hu, Ruiqiao He, Kun Pang, Guibin Wang, et al. High-resolution spatially resolved proteomics of complex tissues based on microfluidics and transfer learning. Cell (2025). 
 
