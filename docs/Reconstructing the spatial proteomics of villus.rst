@@ -3,7 +3,7 @@ Reconstructing the spatial proteomics of villus
 
 To present the pipeline of Flow2Spatial more clearly, we show the villus spatial proteomics reconstruction as an instance. 
 
-Here, we applied PLATO to an adult rat large intestinal villus tissue using a 25 µm chip. More than 2,000 proteins groups in ~100 channels (two angle) was successfully detected using LC-MS/MS, and needed to be reconstructed by Flow2Spatial. After quality control, the channel intensity used for reconstruction is located at https://github.com/bioinfo-biols/Flow2Spatial/tree/main/tests/df_pro_gut.csv.
+Here, we applied PLATO to an adult rat large intestinal villus tissue using a 25 µm chip. Nearly 2,000 proteins groups in ~100 channels (two angle) was successfully detected using LC-MS/MS, and needed to be reconstructed by Flow2Spatial. After quality control, the channel intensity used for reconstruction is located at https://github.com/bioinfo-biols/Flow2Spatial/tree/main/tests/df_pro_gut.csv.
 
 Reconstruction 
 ````````````````
