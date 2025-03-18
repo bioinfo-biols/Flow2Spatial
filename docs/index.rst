@@ -33,4 +33,4 @@ Key functions of Flow2Spatial
    :maxdepth: 1
    :hidden:
 
-   Reconstructing the spatial proteomics of villus
+   Reconstructing the spatial proteomics of rat large intestinal

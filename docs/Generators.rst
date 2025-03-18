@@ -20,7 +20,7 @@ Generator.histology
 
 .. code-block:: python
 
-    Flow2Spatial.generator.histology(line_row, line_col, mask, segments, channel_intensity, radius=[0.5, 0.5], dir_run='./save_environ') 
+    Flow2Spatial.generator.histology(line_row, line_col, mask, segments, channel_intensity, radius=[0.5, 0.5], Hcoordinate=None, dir_run='./save_environ') 
 
 Transfer histological information as training data. 
 
@@ -36,6 +36,8 @@ Corresponding mask and channel_intensity locate at https://github.com/bioinfo-bi
     with open('./mask', 'rb') as handle:
         mask = pickle.load(handle)
     segments = F2S.transfer_masks(adata, mask, list_s=['Cluster1', 'Cluster2', 'Cluster3', 'Cluster4', 'Cluster5', 'Cluster6', 'Cluster7', 'Cluster8', 'Cluster9']) 
+
+Moreover, radius and Hcoordinate means the radius and orignal coordinate of each point in the parallel-flow projection. If Hcoordinate is not None, it requires the coordinate based on the histology image. For the gut reconstruction, corresponding Hcoordinate locates at https://github.com/bioinfo-biols/Flow2Spatial/tree/main/tests . 
 
 In default, output file will locate in the directory "./save_environ". 
 

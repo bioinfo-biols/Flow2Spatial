@@ -11,7 +11,7 @@ The main functions in Flow2Spatial are listed below:
 
 .. code-block:: python
 
-    Flow2Spatial.generator.histology(line_row, line_col, mask, segments, channel_intensity, radius=[0.5, 0.5], dir_run='./save_environ') 
+    Flow2Spatial.generator.histology(line_row, line_col, mask, segments, channel_intensity, radius=[0.5, 0.5], Hcoordinate=None, dir_run='./save_environ') 
 
 
 .. code-block:: python
@@ -21,7 +21,7 @@ The main functions in Flow2Spatial are listed below:
 
 .. code-block:: python
 
-    Flow2Spatial.transfer_masks(adata, mask, list_s=['Cluster1', 'Cluster2','Cluster3', 'Cluster4'])
+    Flow2Spatial.transfer_masks(adata, mask, list_s=['Cluster1', 'Cluster2','Cluster3', 'Cluster4'], RowCol=None)
 
 
 .. code-block:: python
