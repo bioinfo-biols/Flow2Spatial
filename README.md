@@ -18,6 +18,13 @@ It aims to reconstruct spatial proteomics from the values of parallel-flow proje
 
 Further tutorials please refer to  https://Flow2Spatial.readthedocs.io/. 
 
+
+### Multi-omics datasets 
+The multi-omics cerebellum datasets can be found at https://github.com/bioinfo-biols/Flow2Spatial/tree/main/datasets. These data are in the Anndata format, which is compatible with the Python package `anndata`. The corresponding spatial domain can be accessed via adata.obs['cluster'].
+Specifically, 'Cerebellum-PLATO.h5ad' contains the spatial proteomics of the cerebellum, which was reconstructed based on the H&E staining reference. The highly variable proteins after sc.pp.highly_variable_genes() selection are saved in `adata.X`, and the raw intensity of all reconstructed proteins can be accessed via `adata.raw.X`. 
+In addition, 'Cerebellum-MAGIC-seq.h5ad' and 'Cerebellum-MALDI-MSI.h5ad' correspond to the spatial transcriptomics and spatial metabolomics datasets, respectively. The normalized data after log-transformation is saved in `adata.X`, and the raw data can be accessed via `adata.layers['raw']`.
+
+
 ### Citation 
 
 Beiyu Hu, Ruiqiao He, Kun Pang, Guibin Wang, et al. High-resolution spatially resolved proteomics of complex tissues based on microfluidics and transfer learning. Cell 188, 1-15 (2025). 
